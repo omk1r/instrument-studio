@@ -55,7 +55,7 @@ const Shirt3DView = () => {
         <img
           src={shirtImages[currentImage]}
           alt="3D Shirt View"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain transition-opacity duration-100 ease-in-out"
         />
       </div>
       <div className="absolute bottom-0 w-full flex flex-col items-center justify-center p-4 my-2">
