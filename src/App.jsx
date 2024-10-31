@@ -11,7 +11,7 @@ function App() {
     document.documentElement.classList.add('dark'); // Add dark class to the HTML element
   }, []);
   return (
-    <div className="mx-auto">
+    <div className="mx-auto overflow-hidden">
       <Navbar />
       <Hero />
       <Work />
