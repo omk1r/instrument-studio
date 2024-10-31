@@ -2,7 +2,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="flex flex-col items-center relative" id="contact">
+    <section
+      className="flex flex-col items-center relative overflow-hidden"
+      id="contact"
+    >
       <div className=" absolute top-0 left-[50%] translate-x-[-50%] z-40">
         <img
           src="https://res.cloudinary.com/dd85jrb4b/image/upload/f_auto,q_auto/v1/instrument-studio/sdieuj0wmeqfkcgiu9yv"
