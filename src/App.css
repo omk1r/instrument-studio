@@ -1,0 +1,11 @@
+/* App.css */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0f0f0f; /* Ensure the background is dark */
+}
+#floating-image {
+  perspective: 1000px; /* Adjust based on desired depth */
+}
