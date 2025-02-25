@@ -4,67 +4,67 @@ import ShirtCarousel from './3dShirtView';
 const Work = () => {
   return (
     <section
-      className="w-full flex flex-wrap flex-row justify-center items-center my-20 gap-6"
+      className="flex flex-row flex-wrap justify-center items-center my-20 w-full"
       id="work"
     >
-      <div className="bg-[#1B30AE] rounded-3xl max-w-[48%] relative group">
+      <div className="group relative bg-[#1B30AE] mx-2 my-2 rounded-3xl sm:max-w-[48%]">
         <img
           src="https://res.cloudinary.com/dd85jrb4b/image/upload/f_auto,q_auto/v1/instrument-studio/o1lnvnv49vvmc2wryfsg"
           alt="bitcoin"
           className="w-full h-auto"
         />
-        <div className="absolute bottom-0 w-full flex flex-col items-center justify-center p-4 my-2">
-          <p className="font-instrument text-[32px] tracking-tight text-white translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+        <div className="bottom-0 absolute flex flex-col justify-center items-center my-2 p-4 w-full">
+          <p className="font-instrument text-[32px] text-white line-clamp-1 tracking-tight transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
             The future of Web3 on Bitcoin
           </p>
-          <div className="flex flex-row items-center justify-center opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-instrument text-white text-[11px] font-medium my-1">
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">
+          <div className="flex flex-row justify-center items-center opacity-0 group-hover:opacity-100 my-1 font-instrument font-medium text-[11px] text-white transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">
               Branding
             </span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">Website</span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">App</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">Website</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">App</span>
           </div>
         </div>
       </div>
 
-      <div className="bg-[#87E246] rounded-3xl max-w-[48%] relative group">
+      <div className="group relative bg-[#87E246] mx-2 my-2 rounded-3xl sm:max-w-[48%]">
         <img
           src="https://res.cloudinary.com/dd85jrb4b/image/upload/f_auto,q_auto/v1/instrument-studio/ukvju2rqfrqzpivodgnh"
           alt="phone"
           className="w-full h-auto"
         />
-        <div className="absolute bottom-0 w-full flex flex-col items-center justify-center p-4 my-2">
-          <p className="font-instrument text-[32px] tracking-tight text-black translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out line-clamp-1">
+        <div className="bottom-0 absolute flex flex-col justify-center items-center my-2 p-4 w-full">
+          <p className="font-instrument text-[32px] text-black line-clamp-1 tracking-tight transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
             Non ordinary app for non ordinary photos
           </p>
-          <div className="flex flex-row items-center justify-center opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-instrument text-white text-[11px] font-medium my-1">
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">
+          <div className="flex flex-row justify-center items-center opacity-0 group-hover:opacity-100 my-1 font-instrument font-medium text-[11px] text-white transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">
               Branding
             </span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">Website</span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">App</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">Website</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">App</span>
           </div>
         </div>
       </div>
 
       <ShirtCarousel />
 
-      <div className="bg-[#ED732E] rounded-3xl max-w-[48%] relative group">
+      <div className="group relative bg-[#ED732E] mx-2 my-2 rounded-3xl sm:max-w-[48%]">
         <img
           src="https://res.cloudinary.com/dd85jrb4b/image/upload/f_auto,q_auto/v1/instrument-studio/nij1x8y1kyoxonmxrqc8"
           alt="wikipedia"
           className="w-full h-auto"
         />
-        <div className="absolute bottom-0 w-full flex flex-col items-center justify-center p-4 my-2">
-          <p className="font-instrument text-[32px] tracking-tight text-white translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out line-clamp-1">
+        <div className="bottom-0 absolute flex flex-col justify-center items-center my-2 p-4 w-full">
+          <p className="font-instrument text-[32px] text-white line-clamp-1 tracking-tight transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
             Forgotten wikipedia articles
           </p>
-          <div className="flex flex-row items-center justify-center opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-instrument text-white text-[11px] font-medium my-1">
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">
+          <div className="flex flex-row justify-center items-center opacity-0 group-hover:opacity-100 my-1 font-instrument font-medium text-[11px] text-white transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">
               Branding
             </span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">Website</span>
-            <span className="bg-black rounded-3xl px-2 py-1 mx-2">App</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">Website</span>
+            <span className="bg-black mx-2 px-2 py-1 rounded-3xl">App</span>
           </div>
         </div>
       </div>

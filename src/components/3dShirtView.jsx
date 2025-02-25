@@ -45,10 +45,10 @@ const Shirt3DView = () => {
   };
 
   return (
-    <div className="w-full overflow-hidden flex justify-center items-center bg-[#2B2B2B] rounded-3xl max-w-[48%] relative group">
+    <div className="group relative flex justify-center items-center bg-[#2B2B2B] mx-2 my-2 rounded-3xl w-full sm:max-w-[48%] overflow-hidden">
       {/* Image Container */}
       <div
-        className="w-full h-full relative cursor-pointer"
+        className="relative w-full h-full cursor-pointer"
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
@@ -58,14 +58,14 @@ const Shirt3DView = () => {
           className="w-full h-full object-contain transition-opacity duration-100 ease-in-out"
         />
       </div>
-      <div className="absolute bottom-0 w-full flex flex-col items-center justify-center p-4 my-2">
-        <p className="font-instrument text-[32px] tracking-tight text-white translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out line-clamp-1">
+      <div className="bottom-0 absolute flex flex-col justify-center items-center my-2 p-4 w-full">
+        <p className="font-instrument text-[32px] text-white line-clamp-1 tracking-tight transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
           May the 4th be with you
         </p>
-        <div className="flex flex-row items-center justify-center opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-instrument text-white text-[11px] font-medium my-1">
-          <span className="bg-black rounded-3xl px-2 py-1 mx-2">Branding</span>
-          <span className="bg-black rounded-3xl px-2 py-1 mx-2">Website</span>
-          <span className="bg-black rounded-3xl px-2 py-1 mx-2">App</span>
+        <div className="flex flex-row justify-center items-center opacity-0 group-hover:opacity-100 my-1 font-instrument font-medium text-[11px] text-white transition-all translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
+          <span className="bg-black mx-2 px-2 py-1 rounded-3xl">Branding</span>
+          <span className="bg-black mx-2 px-2 py-1 rounded-3xl">Website</span>
+          <span className="bg-black mx-2 px-2 py-1 rounded-3xl">App</span>
         </div>
       </div>
     </div>
